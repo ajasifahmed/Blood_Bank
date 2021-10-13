@@ -1,0 +1,81 @@
+﻿body {
+    margin:0 auto;
+    padding:0px;
+}
+.header{
+    background:#8e2626;
+    width:100%;
+    height:200px;
+}
+/*MASTER PAGE*/
+.navigation{
+    background:#9c4444;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #808080;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+.footer {
+    background: #9c4444;
+    width: 100%;
+    height: 200px;
+}
+/*MASTER END*/
+
+/*DEFAULT*/
+.repeater-main {
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+.repeater-tbl {
+    width: 25%;
+    float: left;
+    border-style: solid;
+    border-color: #9c4444;
+    margin:2px 75px 12px 25px;
+}
+tr:first-child td:nth-child(2) {
+    color: red;
+    font-size:xx-large;
+
+
+}
+td:nth-child(1) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*DEFAULT END*/
+
+/*VIEW PROFILE*/
+/*.div-left {
+    width: 40%;
+    height: 1000px;
+    background: red;
+    float: left;
+}
+}*/
+/*.div-right {
+    height: 1000px;
+    width: 60%;
+    background-color: pink;
+    float: left;
+}*/
+/*VIEW PROFILE END*/
+

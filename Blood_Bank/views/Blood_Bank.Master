@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blood_Bank.master.cs" Inherits="Blood_Bank.views.Blood_Bank" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Blood Bank</title>
+    <link  rel="stylesheet" href="../css/StyleSheet1.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <span style="float:right;padding:20px">
+                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" Font-Bold="true" Style="margin-right:20px" OnClick="LinkButton1_Click"></asp:LinkButton>
+                <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="White" Font-Bold="true" OnClick="LinkButton2_Click"></asp:LinkButton>
+            </span>
+            <img src="../img/blood-bank-logo.png" style="width:200px;height:200px"/>
+        </div>
+        <div class="navigation">
+            <h2>
+                <a href="../default.aspx">HOME</a> |
+                <a href="#">ABOUT US</a> |
+                <a href="#">CONTACT US</a> |
+                <a href="../views/search.aspx">SEACRH</a>
+            </h2>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+
+        </div>
+    </form>
+</body>
+</html>
